@@ -1,0 +1,54 @@
+// v1 - VARIABLES, FUNCTIONS AND THEME COLORS
+@import '../../theme/v1/variables.scss';
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-12 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: var(--generalIconColor);
+  background-repeat:no-repeat;
+  width: 50vw;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 10px 0;
+  font-weight: 700;
+  color: var(--generalColor);
+}
+
+select {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: var(--generalIconColor);
+  background-repeat:no-repeat;
+  width: 50vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 10px 0;
+  font-weight: 700;
+  color: var(--generalColor);
+  text-align: center;
+  justify-content: center;
+
+  // remove selectbox arrow
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+}
+
+ul {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
